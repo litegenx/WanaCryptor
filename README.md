@@ -14,9 +14,9 @@
 + https://zerosum0x0.blogspot.com/2017/04/doublepulsar-initial-smb-backdoor-ring.html
 
 ```powershell
-$ python2.7 smb_exploit.py 192.168.206.152
+$ python2.7 wanacryptor.py IP
 [+] [192.168.206.152] is likely VULNERABLE to MS17-010! (Windows 7 Ultimate 7600)
 
-$ python2.7 smb_exploit.py 192.168.206.130
-[+] [192.168.206.130] is likely VULNERABLE to MS17-010! (Windows 5.1)
+$ python2.7 wanacryptor.py IP
+[+] [IP] is likely VULNERABLE to MS17-010! (Windows 5.1)
 ```
